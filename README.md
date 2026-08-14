@@ -1,46 +1,19 @@
-DialogueEngine
+# Dialogue Engine
 
-A simple, data-driven dialogue tree engine written in C++. Designed to read, parse, and execute branching narrative structures dynamically from external text files.
-How It Works
+This repository contains C++ source files, narrative script definitions, and build configurations for the Dialogue Engine project.
 
-The execution process runs in three main steps:
+## Project Structure
+- main.cpp: Core engine logic, file parsing, input sanitization, and main execution loop.
+- story.txt: External narrative script defining node IDs, dialogue text, and branching options.
+- .gitignore: Configuration file to exclude build artifacts and executables.
 
-    Parser: Scans the raw story.txt script and converts custom syntax tags (NODE:, TEXT:, OPTION:) into structured C++ data objects.
+## Requirements & Setup
+- C++11 (or higher) compliant compiler (`g++`, `clang++`, or MSVC)
+- Standard C++ Library (`iostream`, `fstream`, `vector`, `map`)
 
-    State Machine: Maps parsed dialogue nodes into memory (std::map) and manages narrative state transitions based on player choices.
+## How to Run
+Compile and execute the program via terminal:
 
-    Input Sanitizer: Handles console input validation (std::cin.clear(), std::cin.ignore()) to prevent crash loops and invalid state transitions.
-
-Features
-
-    Data-Driven Architecture: Story content is completely decoupled from execution logic, allowing script edits without recompiling.
-
-    Stream Safety: Protected against non-integer user inputs and invalid choice indices.
-
-    Zero Dependencies: Built entirely using standard C++ STL components (std::map, std::vector, std::ifstream).
-
-Project Structure
-
-    main.cpp : Core engine logic, file parsing, input sanitization, and main game loop.
-
-    story.txt : External narrative script defining node IDs, dialogue text, and branching options.
-
-    .gitignore : Configuration file to exclude build artifacts and executable files.
-
-How to Run
-
-Requires a C++11 (or higher) compliant compiler. No third-party libraries are needed.
-
-    Compile the C++ source file:
-
-    g++ main.cpp -o DialogueEngine
-
-    Run the compiled executable:
-
-    ./DialogueEngine
-
-Author
-
-Orkun Aydın Alper
-
-Computer Engineering, Ankara Science University
+```bash
+g++ main.cpp -o DialogueEngine
+./DialogueEngine
