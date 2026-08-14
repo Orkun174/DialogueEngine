@@ -33,15 +33,11 @@ Requires a C++11 (or higher) compliant compiler. No third-party libraries are ne
 
     Compile the C++ source file:
 
-Bash
-
-g++ main.cpp -o DialogueEngine
+    g++ main.cpp -o DialogueEngine
 
     Run the compiled executable:
 
-Bash
-
-./DialogueEngine
+    ./DialogueEngine
 
 Author
 
