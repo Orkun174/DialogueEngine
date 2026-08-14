@@ -1,0 +1,85 @@
+NODE: 1
+TEXT: You woke up in a dark and damp dungeon. Water is dripping from the walls. Which way will you go?
+OPTION: 2 | The wooden door with a torch on the left.
+OPTION: 3 | The pitch-black corridor on the right.
+OPTION: 4 | Open the heavy iron hatch on the floor.
+END
+
+NODE: 2
+TEXT: You passed through the door with the torch. Inside, a giant Troll is sleeping. Its snoring shakes the room. What will you do?
+OPTION: 5 | Tip-toe past it quietly.
+OPTION: 6 | Draw your sword and charge in screaming!
+OPTION: 1 | You got scared, silently return to the first room.
+END
+
+NODE: 3
+TEXT: While walking down the dark corridor, you tripped a wire! Poison darts shoot from the walls. You dodge most of them, but one hits your shoulder. You are weakened but alive.
+OPTION: 9 | Pull the dart out and keep moving forward in the dark.
+OPTION: 1 | Crawl back to the starting room before the poison spreads.
+END
+
+NODE: 4
+TEXT: You opened the secret hatch and jumped down. You found yourself in the freezing waters of an underground river.
+OPTION: 7 | Swim against the current with all your might.
+OPTION: 8 | Let go and allow the current to drag you.
+END
+
+NODE: 5
+TEXT: You successfully sneaked past the Troll! You entered the treasure vault. There is a massive chest of gold and a mysterious glowing sword on an altar. You only have time to take one before the alarm sounds.
+OPTION: 10 | Take the massive chest of gold.
+OPTION: 11 | Grab the glowing sword.
+END
+
+NODE: 6
+TEXT: The Troll wakes up instantly, grabs your sword with its bare hands, and throws you into a deep pit. You fall for minutes before hitting the bottom.
+OPTION: 12 | Try to find a way out of the pit.
+END
+
+NODE: 7
+TEXT: Swimming against the current was a bad idea. You are exhausted and start to sink. Suddenly, a strange underwater creature grabs your leg!
+OPTION: 13 | Kick the creature and swim to the nearest rock.
+OPTION: 14 | Stop resisting and see where it takes you.
+END
+
+NODE: 8
+TEXT: The current dragged you out of a narrow cave and into a lake in the middle of a sunny forest. You made it out! But a group of bandits is waiting on the shore.
+OPTION: 15 | Dive back underwater to hide.
+OPTION: 16 | Raise your hands and surrender.
+END
+
+NODE: 9
+TEXT: You keep moving forward. The poison makes you hallucinate. You see a vision of a strange doorway made of pure light.
+OPTION: 17 | Walk into the light.
+END
+
+NODE: 10
+TEXT: You try to carry the heavy chest, but it slows you down. The guards arrive and capture you. You spend the rest of your life in a prison cell. Game over.
+END
+
+NODE: 11
+TEXT: You grab the sword. As soon as you touch it, you are teleported out of the dungeon to the peak of a snowy mountain. The power of a god flows through you. You win!
+END
+
+NODE: 12
+TEXT: It's too dark, and your legs are broken. There is no escape. You eventually starve. Game over.
+END
+
+NODE: 13
+TEXT: You kick free and reach a rock, but the cold water has frozen your muscles. You cannot move anymore. Game over.
+END
+
+NODE: 14
+TEXT: The creature pulls you into an underwater temple and gives you the ability to breathe water. You are now the king of the sunken city. You win!
+END
+
+NODE: 15
+TEXT: You try to hide, but the bandits shoot arrows into the water. You are hit and slowly sink to the bottom of the lake. Game over.
+END
+
+NODE: 16
+TEXT: The bandits take you captive, but impressed by your survival skills, they recruit you. You start a new life as a bandit leader. You win!
+END
+
+NODE: 17
+TEXT: The light was an illusion created by a giant spider. It wraps you in its web. Game over.
+END
